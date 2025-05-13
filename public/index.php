@@ -13,6 +13,12 @@
 			<li><a href="index.php" tabindex="0">Početna</a></li>
 			<li><a href="grafikon.php" tabindex="0">Grafikon</a></li>
 			<li><a href="slike.php" tabindex="0">Galerija</a></li>
+			<li><a href="home.php" tabindex="0">Home</a></li>
+			<li><a href="films.php" tabindex="0">Filmovi</a></li>
+			<li><a href="cart.php" tabindex="0">Košarica</a></li>
+			<li><a href="login.php" tabindex="0">Prijava</a></li>
+			<li><a href="register.php" tabindex="0">Registracija</a></li>
+
 		</ul>
 	</nav>
 

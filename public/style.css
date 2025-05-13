@@ -1,4 +1,3 @@
-/* Opći stilovi za tijelo stranice */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -9,7 +8,6 @@ body {
     color: #333;
 }
 
-/* Header i navigacija */
 header {
     background: #222;
     color: white;
@@ -46,7 +44,6 @@ nav {
     background-color: #555;
 }
 
-/* Stil za filter kontejnere */
 #filter-container {
     background-color: #ffffff;
     padding: 20px;
@@ -57,7 +54,6 @@ nav {
     margin: 20px auto;
 }
 
-/* Opći stilovi za inpute i selekte u filtrima */
 #filter-container label {
     font-weight: bold;
     display: block;
@@ -76,7 +72,6 @@ nav {
     border-radius: 5px;
 }
 
-/* Stil za dugme Filtriraj */
 #filter-container button {
     background-color: #4CAF50;
     color: white;
@@ -89,12 +84,10 @@ nav {
     background-color: #45a049;
 }
 
-/* Razmaci između inputa, selekta i labela */
 #filter-container div {
     margin-bottom: 15px;
 }
 
-/* Tablica */
 table {
     width: 90%;
     border-collapse: collapse;
@@ -133,7 +126,6 @@ table + table {
     margin-top: 40px;
 }
 
-/* Struktura stranice sa filtrima i sadržajem */
 .main-part {
     display: flex;
     justify-content: space-between;
@@ -185,7 +177,6 @@ table + table {
     color: #333;
 }
 
-/* Stilovi za kartice filmova u preporučenim filmovima */
 .recommended-movies {
     flex: 1;
     position: sticky;
@@ -229,7 +220,6 @@ table + table {
     font-weight: bold;
 }
 
-/* Stil za pie-chart */
 .pie-chart {
     width: 150px;
     height: 150px;
@@ -288,7 +278,6 @@ table + table {
     transform: scale(1.05);
 }
 
-/* Responzivnost */
 @media (max-width: 768px) {
     .data-container {
         flex-direction: column;
